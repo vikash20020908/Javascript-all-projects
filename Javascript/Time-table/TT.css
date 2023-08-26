@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table, th, td {
+    border: 1px solid rgba(246, 5, 146, 0.466);
+    border-style: solid;
+  }
+th:hover {
+    background-color: rgb(18, 107, 251);
+}
+td:hover {
+    background-color: coral;
+}
+.center {
+    justify-content: center;
+    margin-top: 150px;
+}
+h2 {
+    text-align: center;
+    color: rgb(234, 8, 255);
+}

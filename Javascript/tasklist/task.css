@@ -1,0 +1,33 @@
+.for_inline {
+    display: inline block;
+}
+
+.col-md-5 { 
+    align-items: center !important;
+    text-align: center;
+}
+h1 {
+    color: rgb(9, 215, 230);
+}
+p {
+    display: inline-block;
+}
+
+
+
+/* body{
+
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+}
+button {
+    color: rgb(0, 0, 0) !important;
+} */
