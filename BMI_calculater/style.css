@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(4, 48, 48);
+}
+h1 {
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.height {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  gray;
+}
+.Weight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+input {
+    font-size: large;
+    height: 25px;
+    border: 2px solid rgb(117, 117, 153);
+    border-radius: 10px;
+    background-color: rgb(216, 229, 233);
+    color: black;
+    align-items: center;
+}
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure
+}
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: azure;
+}
+button {
+    margin-left:  580px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid blue;
+
+}
