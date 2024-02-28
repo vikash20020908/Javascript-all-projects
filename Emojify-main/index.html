@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Eczar&family=Finger+Paint&family=Inter:wght@300&family=Poppins:wght@300;400&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Emojify!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="toptxt">
+            <h1>Text<i class="ri-arrow-right-line"></i>Emoji</h1>
+        </div>
+        <div id="keys">
+            <h3 id="one"><i class="ri-lock-line"></i>Encrypt Text</h3>
+            <h3 id="two"><i class="ri-lock-unlock-line"></i>Decrypt Emoji</h3>
+        </div>
+        <div id="encrypt">
+            <h5>1. Type a Message</h5>
+            <textarea id="txtmsg" placeholder="Write any text to encrypt..."></textarea>
+            <h5>2. Set a Password</h5>
+            <input  placeholder="E.g. 1234" type="password" id="password">
+            <h5>3. Encrypt message</h5>
+            <button id="ebtn"><i class="ri-lock-line"></i>Encrypt Text</button>
+        </div>
+        <div id="decrypt">
+            <h5>1. Paste encrypted emojis</h5>
+            <textarea id="emojimsg" placeholder="Paste encrypted emojis here..."></textarea>
+            <h5>2. Type a Password</h5>
+            <input placeholder="E.g. 1234" type="password" id="finalPassword">
+            <h5>3. Decrypt Emojis</h5>
+            <button id="dbtn"><i class="ri-lock-unlock-line"></i>Decrypt Emoji</button>
+        </div> 
+         <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
