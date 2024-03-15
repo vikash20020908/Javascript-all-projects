@@ -1,0 +1,85 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.container {
+    width: 420px;
+    height: auto;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 25px;
+}
+.container span {
+    color: rgb(57, 2, 109);
+    font-size: 24px;
+    font-weight: 600;
+}
+.container p {
+   color:rgb(50, 3, 94);
+   font-size: 14px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.container  .input-item {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container  .input-item input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid gray;
+    outline: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.container .input-item button {
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: darkcyan;
+    color:white;
+}
+.container  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.container .content .year,.month,.day {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.container .content .year p, .month p, .day p {
+    font-size: 40px;
+    font-weight: 500px;
+    color:rgb(255, 0, 34);
+
+}
+.container .content .year h5, .month h5 , .day h5 {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
